@@ -1,10 +1,5 @@
 @import url(fontawesome-all.min.css);
 
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -106,7 +101,7 @@ input, select, textarea {
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
 			animation: none !important;
-			-moz-transition: none !important;
+			-moz-transition: none !important;class="wrapper style1-alt fullscreen fade-up"
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
