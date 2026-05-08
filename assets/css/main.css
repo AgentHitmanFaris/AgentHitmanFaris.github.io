@@ -3235,27 +3235,27 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #2a2a2a;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #1e1e1e;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #333333;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #222222;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #1a1a1a;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #0d0d0d;
 		}
 
 		.wrapper.fullscreen {
@@ -3943,3 +3943,12 @@ a:hover, .button:hover {
     100% { transform: scale(1); }
 }
 /* --- End Funky Animations --- */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fadein {
+    animation: fadein 2s;
+}
